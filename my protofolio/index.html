@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Ayush's personal portfolio showcasing skills, projects, education and certificates.">
+
+    <title>Ayush | CSE Student Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <a class="logo" href="#home">Ayush<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="hero section" id="home">
+            <div class="hero-text">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>Ayush</span></h1>
+
+                <h2>Computer Science Engineering Student</h2>
+
+                <p class="intro">
+                    I am learning programming and web development.
+                    I enjoy building useful projects and exploring
+                    new technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Explore My Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="profile-wrapper">
+                <img
+                    src="images/profile/my%20profile%20image.jpeg"
+                    alt="Ayush's profile photo"
+                    class="profile-image"
+                    id="profileImage"
+                >
+                <p class="profile-caption">Learner • Developer • Problem Solver</p>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    Hello! I am Ayush, a Computer Science Engineering
+                    student at Symbiosis Institute of Technology, Nagpur.
+                    I am developing my skills in programming, web
+                    development and software projects.
+                </p>
+                <p>
+                    My goal is to improve my problem-solving ability,
+                    gain practical experience and build projects that
+                    demonstrate what I learn.
+                </p>
+
+                <div class="education-details">
+                    <div>
+                        <strong>Degree</strong>
+                        <span>B.Tech in CSE</span>
+                    </div>
+                    <div>
+                        <strong>Institute</strong>
+                        <span>Symbiosis Institute of Technology, Nagpur</span>
+                    </div>
+                    <div>
+                        <strong>Interests</strong>
+                        <span>Web Development, Programming, Cybersecurity and AI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section alternate" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>My Skills</h2>
+                <p>Technologies I am learning and practising.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon">🌐</span>
+                    <h3>HTML</h3>
+                    <p>Creating webpage structure.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3>CSS</h3>
+                    <p>Styling and responsive layouts.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity to webpages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Programming and problem-solving.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">☕</span>
+                    <h3>Java</h3>
+                    <p>Learning object-oriented programming.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>SQL</h3>
+                    <p>Learning database concepts.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I HAVE BUILT</p>
+                <h2>My Projects</h2>
+                <p>Some academic and personal projects.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive website to showcase my introduction,
+                        technical skills, projects and certificates.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#home" class="project-link">View Portfolio ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Task Manager</h3>
+                    <p>
+                        A task management application for adding,
+                        completing and deleting tasks.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p class="project-note">Add your project link when available.</p>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>Agricultural Scheme Information Agent</h3>
+                    <p>
+                        A project that helps users explore agricultural
+                        government schemes and their official information.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Gradio</span>
+                        <span>AI</span>
+                    </div>
+                    <p class="project-note">Add your project link when available.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <section class="section alternate" id="certificates">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACHIEVEMENTS</p>
+                <h2>My Certificates</h2>
+                <p>Click any certificate to view the full image.</p>
+            </div>
+
+            <div class="certificates-grid">
+
+                <article class="certificate-card">
+                    <a href="images/certificate%20image/certificate.png"
+                       class="certificate-link" target="_blank"
+                       rel="noopener">
+                        <img src="images/certificate%20image/certificate.png"
+                             alt="Certificate 1"
+                             loading="lazy">
+                    </a>
+                    <div class="certificate-info">
+                        <h3>Certificate 1</h3>
+                        <p>Update with the actual course name.</p>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <a href="images/certificate%20image/Certificate2.png"
+                       class="certificate-link" target="_blank"
+                       rel="noopener">
+                        <img src="images/certificate%20image/Certificate2.png"
+                             alt="Certificate 2"
+                             loading="lazy">
+                    </a>
+                    <div class="certificate-info">
+                        <h3>Certificate 2</h3>
+                        <p>Update with the actual course name.</p>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <a href="images/certificate%20image/Certificate.jpg"
+                       class="certificate-link" target="_blank"
+                       rel="noopener">
+                        <img src="images/certificate%20image/Certificate.jpg"
+                             alt="Certificate 3"
+                             loading="lazy">
+                    </a>
+                    <div class="certificate-info">
+                        <h3>Certificate 3</h3>
+                        <p>Update with the actual course name.</p>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <a href="images/certificate%20image/cerificate%201.png"
+                       class="certificate-link" target="_blank"
+                       rel="noopener">
+                        <img src="images/certificate%20image/cerificate%201.png"
+                             alt="Certificate 4"
+                             loading="lazy">
+                    </a>
+                    <div class="certificate-info">
+                        <h3>Certificate 4</h3>
+                        <p>Update with the actual course name.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+                <p>Have a question or opportunity? Send me a message.</p>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <label for="visitorName">Your Name</label>
+                <input type="text" id="visitorName"
+                       placeholder="Enter your name" required>
+
+                <label for="visitorEmail">Your Email</label>
+                <input type="email" id="visitorEmail"
+                       placeholder="Enter your email" required>
+
+                <label for="visitorMessage">Your Message</label>
+                <textarea id="visitorMessage" rows="5"
+                          placeholder="Write your message" required></textarea>
+
+                <button type="submit" class="btn primary">
+                    Send Message
+                </button>
+
+                <p id="formStatus" class="form-status" aria-live="polite"></p>
+            </form>
+        </section>
+        <!--Achievement section -->
+        
+<!-- Achievements Section -->
+<section id="achievements" class="section">
+    <h2>My Achievements</h2>
+    <p class="section-subtitle">
+        My accomplishments and learning milestones
+    </p>
+
+    <div class="achievement-container">
+
+        <div class="achievement-card">
+            <div class="achievement-icon">🏆</div>
+            <h3>Academic Achievement</h3>
+            <p>
+                Pursuing B.Tech in Computer Science and Engineering
+                at Symbiosis Institute of Technology, Nagpur.
+            </p>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-icon">💻</div>
+            <h3>complete python intership of kodbud</h3>
+            <p>
+                Built web development projects using HTML, CSS,
+                JavaScript, and Local Storage.
+            </p>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-icon">🤖</div>
+            <h3>Complete the full stack web development in maincraft</h3>
+            <p>
+                Developed an Agricultural Government Scheme
+                Information Agent project.
+            </p>
+        </div>
+
+        <div class="achievement-card">
+            <div class="achievement-icon">📜</div>
+            <h3>Continuous Learning</h3>
+            <p>
+                Learning programming, databases, and new
+                technologies through practical projects.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed and built by Ayush</p>
+        <p>© <span id="currentYear"></span> Ayush. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+</body>
+</html>
